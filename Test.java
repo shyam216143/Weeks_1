@@ -15,7 +15,7 @@ public class Test
         t.start();
 
         System.out.println("Main thread is running....");
-        for(int i=0;i<100;i++) {
+        for(int i=0;i<10;i++) {
             System.out.println("main "+ Thread.currentThread().getName()+ " "+i);
         }
     }
