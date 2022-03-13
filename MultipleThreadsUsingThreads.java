@@ -1,24 +1,29 @@
 class Thread1 extends Thread{
+    @Override
     public void run(){
         System.out.println("Hello All");
     }
 }
 class Thread2 extends Thread{
+    @Override
     public void run(){
         System.out.println("Hello All");
     }
 }
 class Thread3 extends Thread{
+    @Override
     public void run(){
         System.out.println("Hello All");
     }
 }
 class Thread4 extends Thread{
+    @Override
     public void run(){
         System.out.println("Hello All");
     }
 }
 class Thread5 extends Thread{
+    @Override
     public void run(){
         System.out.println("Hello All");
     }
