@@ -1,4 +1,4 @@
-class Mytask extends Thread{
+class Mytask3 extends Thread{
 
     @Override
     public void run() {
