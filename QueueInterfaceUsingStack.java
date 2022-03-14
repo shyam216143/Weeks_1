@@ -2,6 +2,7 @@ import java.util.*;
 public class QueueInterfaceUsingStack {
    Stack stack1 = new Stack<>();
    Stack stack2 = new Stack<>();
+    Stack stack3 = new Stack<>();
     public void enqueue(int element) {
         stack1.push(element);
         System.out.println(element + " inserted");
@@ -13,6 +14,7 @@ public class QueueInterfaceUsingStack {
             }
         }
         System.out.println(stack2.pop() + " removed");
+        System.out.println("Remaining elements are"+stack2);
     }
     public static void main(String[] args) {
         QueueInterfaceUsingStack test = new QueueInterfaceUsingStack();
@@ -21,6 +23,7 @@ public class QueueInterfaceUsingStack {
         }
         test.dequeue();
         test.dequeue();
+
     }
 
 
